@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:a="https://www.w3c.org/TR/html5/" xmlns:b="http://www.google.com/web">
+<!--   네임스페이스 : 중복규정이 불가능한 루트엘리먼트나 각 엘리먼트에 대한 문서 규격과 용도를 달리 적용하고자 할 경우 사용-->
+    <a:academy>
+        <a:h1></a:h1>
+        <a:p></a:p>
+    </a:academy>
+    <b:academy>
+        <b:h1></b:h1>
+        <b:p></b:p>
+    </b:academy>
+</root>
+<!-- root:루트엘리먼트이고, 루트엘리먼트에 네임스페이를 적용해야함 -->

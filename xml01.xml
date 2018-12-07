@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- 서두=선언부  -->
+<shop city="대전" type="마트" brand="노브랜드"><!-- 본문  -->
+    <food>
+        <name>삼겹살</name>
+        <sort>육류</sort>
+        <cost>23000</cost>
+    </food>
+    <food>
+        <name>새우깡</name>
+        <sort>과자</sort>
+        <cost>1000</cost>
+    </food>
+    <food>
+        <name>귤</name>
+        <sort>과일</sort>
+        <cost>3000</cost>
+    </food>
+    <food>
+        <name>상추</name>
+        <sort>야채</sort>
+        <cost>2000</cost>
+    </food>
+</shop>
+<!-- 기타 -->

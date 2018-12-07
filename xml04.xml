@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE student SYSTEM "https://www.w3c.org/TR/html5/">
+<!-- SYSTEM은 DTD를 비공개용으로 사용할 경우 -->
+<!DOCTYPE student PUBLIC "http://www.naver.com/webstandard/">
+<!-- PUBLIC은 DTD를 공개해도 좋을 경우  -->
+<!DOCTYPE student [DTD정의부]>
+<!-- DTD를 사용자가 직접 정의할 경우  -->
+<student>
+    
+</student>

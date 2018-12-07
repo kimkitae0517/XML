@@ -1,0 +1,44 @@
+<?xml version=1.0" encoding="utf-8"?><!-- XML선언부 -->
+<?xml-stylesheet type="text/css" href="style.css"?><!-- 프로세싱 지시자 -->
+<!DOCTYPE booksales SYSTEM "html.dtd"><!-- 문서 규격(유형) 선언 -->
+<!--
+★ 문서 구조
+서두(Prolog), 본문(Body), 기타(Misc)로 구성되며, 기타(Misc)는 생략가능
+서두(Prolog) : XML의 선언부, 프로세싱 지시자(외부스타일데이터), 문서 유형 선언자
+본문(Body) : 루트엘리먼트(태그)를 먼저 기술하고, 그 내부에 자식엘리먼트(태그)를 기술하고, 자식엘리먼트(태그) 안에는 자손엘리먼트를 기술한다.
+엘리먼트(TAG) : 태그와 각기 다른 요소의 속성으로 이루어짐 
+-->
+<!--
+ ★ 태그시 유의사항 
+    - 영문자, 숫자, _(언더스코어), -(하이픈), .(마침표) 등을 이용하여 태그작성 가능
+    - 태그는 영문 대소문자를 구분한다.
+    - 태그명은 중간에 공백을 포함할 수 없다.
+    - 예약어인 xml, Xml, XML 는 사용이 불가능함.
+    - 시작(open) 태그와 종료 태그(close)는 동일해야 함.
+-->
+<booksales season="winter" type="computer">
+    <book>
+        <name>C/C++</name>
+        <auther>고진학</auther>
+        <category>응용소프트웨어</category>
+        <price>50000</price>
+    </book>
+    <book>
+        <name>JAVA</name>
+        <auther>김지인</auther>
+        <category>응용소프트웨어</category>
+        <price>40000</price>
+    </book>
+    <book>
+        <name>JSP</name>
+        <auther>남누리</auther>
+        <category>웹프로그래밍</category>
+        <price>42000</price>
+    </book>
+    <book>
+        <name>정보처리기사</name>
+        <auther>박소미</auther>
+        <category>자격증</category>
+        <price>34000</price>
+    </book>
+</booksales>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl01.xsl"?>
+<languageGroup>
+    <language>
+        <name>HTML</name>
+        <category>client</category>
+        <developer>FRONT</developer>
+        <rank>HIGH</rank>
+    </language>
+    <language>
+        <name>CSS</name>
+        <category>client</category>
+        <developer>FRONT</developer>
+        <rank>HIGH</rank>
+    </language>
+    <language>
+        <name>javascript</name>
+        <category>client</category>
+        <developer>PULLSTACK</developer>
+        <rank>HIGH</rank>
+    </language>
+    <language>
+        <name>XML</name>
+        <category>server</category>
+        <developer>BACK</developer>
+        <rank>MIDDLE</rank>
+    </language>
+    <language>
+        <name>JSP</name>
+        <category>server</category>
+        <developer>BACK</developer>
+        <rank>MIDDLE</rank>
+    </language>
+</languageGroup>

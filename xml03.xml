@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="style.css" ?><!-- 외부 스타일 -->
+<?xml-stylesheet type="text/css" href="#kbs"?><!-- 내부 스타일 -->
+<student>
+    <style id="kbs">
+    /* 스타일 */    
+    </style>
+</student>
